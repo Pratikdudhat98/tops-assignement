@@ -54,6 +54,7 @@ void choice(int select)
         scanf(" ");
         gets(name);
         strcpy(p,name);
+        strrev(p);
         if(strcmp(name,p)==0)
         {
             printf("this string is palindrome");
